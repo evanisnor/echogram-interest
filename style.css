@@ -55,6 +55,12 @@ body {
     align-content: flex-end;
 }
 
+.textCenter {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
 body {
     width: 100vw;
 }
@@ -136,28 +142,26 @@ section#artists {
     background-position: center;
 }
 
-section#intake {
+section#feedback {
     padding: 0.5rem;
     background-image: url('img/intake.jpg');
     background-size: cover;
     background-position: center;
 }
 
-section#intake h1 {
+section#feedback h1 {
  padding-bottom: 1em;
 }
 
-section#intake h2 {
+section#feedback p {
     padding: 1em;
-}
-
-section#intake div#form {
-    padding: 2rem;
-    width: 100%;
-    max-width: 40rem;
-    background-color: #FFFFFF55;
 }
 
 p#copyright {
     padding-top: 4rem;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: underline;
 }
