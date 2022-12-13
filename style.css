@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.stroke {
+    color: #000000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.vertical {
+    flex-direction: column
+}
+
+.horizontal {
+    flex-direction: row
+}
+
+.thirtyfive {
+    height: 35vh;
+}
+
+.textLeft {
+    text-align: start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.textRight {
+    text-align: end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    height: 75vh;
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header #title {    
+    font-family: 'Monoton', cursive;
+    font-size: 8em;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 4rem;
+    
+    color: #BADA55;
+}
+
+header #subtitle {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+section {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+section h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 2.5em;
+
+    color: #000000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #FFFFFF;
+}
+
+section h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+ul {
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    background: #00000066;
+}
+
+li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 35rem;
+}
+
+li p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+section#musiclovers {
+    height: 35vh;
+    background-image: url('img/musiclovers.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section#musiclovers h1 {
+    width: 50%;
+}
+
+section#musiclovers div {
+    width: 50%;
+    height: 100%;
+}
+
+
+section#artists {
+    height: 35vh;
+    background-image: url('img/artists.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section#artists div {
+    width: 50%;
+    height: 100%;
+}
+
+section#intake {
+    padding: 6rem;
+    background-image: url('img/intake.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section#intake h2 {
+    padding: 1em;
+}
+
+section#intake div#form {
+    padding: 2rem;
+    width: 100%;
+    max-width: 40rem;
+    background-color: #FFFFFF55;
+}
+
+p#copyright {
+    padding-top: 4rem;
+}
